@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "FK - Import",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "iconc.png",   
+      "48": "iconc.png",
+      "128": "iconc.png"
+    },
+    "default_width": 500,
+    "default_height": 500
+  },
+  "icons": {
+    "16": "iconc.png",
+    "48": "iconc.png",
+    "128": "iconc.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
